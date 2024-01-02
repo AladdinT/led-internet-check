@@ -1,0 +1,11 @@
+[Unit]
+Description="This service is to check internet connectivity by toggling an led on gpio26"
+After=network-online.target
+
+[Service]
+ExecStart=/home/pi/led-internet-check/led-net-check.sh gpio=26 dtbo=/home/pi/led-internet-check/myoverlay/my-gpio-led.dtbo
+ExecStop=/home/pi/led-internet-check/led-net-check.sh --remove gpio=26 
+User=root
+
+[Install]
+WantedBy=multi-user.target
