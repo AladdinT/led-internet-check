@@ -20,8 +20,8 @@ In case your kit or image does not support it, You may replace it at [led-net-ch
     sudo ./led-net-check.sh label=led-checker gpio=26 
     ```
 3. **Voila**
-<div style="text-align:center;">
-    <img src="./media/demo.gif" alt="Raspberry Pi Demo" style="width:45%; text-align:center;">
+<div style="text-align:center; width:45%;">
+    <img src="./media/demo.gif" alt="Raspberry Pi Demo">
     <!-- <img src="https://raw.githubusercontent.com/AladdinT/led-internet-check/master/media/demo.gif" alt="Raspberry Pi Demo" style="width:45%; text-align:center;"> -->
 </div>
 
