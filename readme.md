@@ -58,6 +58,6 @@ sudo ./led-net-check.sh --remove label=led-checker gpio=26
 # To stop the service from running automatically on boot
 sudo systemctl disable your_service_name.service
 # To remove the service from systemd
-sudo rm /etc/systemd/system/your_service_name.service
+sudo rm /usr/lib/systemd/system/your_service_name.service
 sudo systemctl daemon-reload
 ```
