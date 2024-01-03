@@ -42,7 +42,7 @@ sudo systemctl enable   my-net-check.service
 # Start the service to immediately run
 sudo systemctl start    my-net-check.service
 # Check Service Status
-sudo systemctl status your_service_name.service
+sudo systemctl status   my-net-check.service
 ```
 
 ## Undo changes
@@ -56,8 +56,8 @@ sudo ./led-net-check.sh --remove label=led-checker gpio=26
 ### Remove systemd service 
 ```bash
 # To stop the service from running automatically on boot
-sudo systemctl disable your_service_name.service
+sudo systemctl disable my-net-check.service
 # To remove the service from systemd
-sudo rm /usr/lib/systemd/system/your_service_name.service
+sudo rm /usr/lib/systemd/system/my-net-check.service
 sudo systemctl daemon-reload
 ```
