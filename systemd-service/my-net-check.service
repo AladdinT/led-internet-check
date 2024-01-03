@@ -3,7 +3,7 @@ Description="This service is to check internet connectivity by toggling an led o
 After=network-online.target
 
 [Service]
-ExecStart=/home/pi/led-internet-check/led-net-check.sh gpio=26 dtbo=/home/pi/led-internet-check/myoverlay/my-gpio-led.dtbo
+ExecStart=/home/pi/led-internet-check/led-net-check.sh gpio=26 
 ExecStop=/home/pi/led-internet-check/led-net-check.sh --remove gpio=26 
 User=root
 
