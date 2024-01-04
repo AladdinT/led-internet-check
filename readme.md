@@ -8,7 +8,7 @@ For other embedded linux devices, you may need to update .dtbo file.
 ## Demo
 
 0. **Dependencies** You will need to install a tool named `gpiod`. It is used to check gpio pin availability.<br>
-In case your kit or image does not support it, You may replace it at [led-net-check.sh : line 67](https://github.com/AladdinT/led-internet-check/blob/master/led-ner-check.sh#L67)
+In case your kit or image does not support it, You may replace it at [led-net-check.sh : line 67](https://github.com/AladdinT/led-internet-check/blob/master/led-net-check.sh#L67)
 
     ```bash
     sudo apt install gpiod
